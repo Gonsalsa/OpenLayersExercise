@@ -1,0 +1,46 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#clear-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#pointsCounter {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1000;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#forsheda-btn {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  z-index: 1000;
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
